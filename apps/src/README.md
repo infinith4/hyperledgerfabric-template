@@ -24,6 +24,32 @@ npm i
 
 ------------
 
+cd factory/
+
+
+npm i  --legacy-peer-deps
+npm run build
+
+
+PORT=3005 react-scripts start
+
+npm run start
+
+------------
+
+cd market
+
+npm i  --legacy-peer-deps
+npm run build
+PORT=3005 react-scripts start
+npm run start
+
+------------
+
+cd server
+
+docker build ./ -t meatchain-server
+docker run meatchain-server
 
 # Apps and Meatchain server
 
