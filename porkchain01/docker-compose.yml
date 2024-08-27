@@ -1,0 +1,11 @@
+services:
+  cli:
+    container_name: hyperledgerfabric-template_template01
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    tty: true
+    volumes:
+      - type: bind
+        source: ./src
+        target: /src

@@ -1,0 +1,11 @@
+
+server/src/routes/additive_management.js
+server/src/routes/cage_management.js
+server/src/routes/meat_management.js
+server/src/routes/pig_management.js
+server/src/routes/trace_management.js
+server/src/routes/tray_management.js
+server/src/service/MeatchainService.js
+server/src/utils/AppUtils.js
+server/src/utils/IDGenerator.js
+server/src/index.js

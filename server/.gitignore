@@ -1,0 +1,10 @@
+*.yaml
+factory_wallet/*
+farm_wallet/*
+
+!src/README.md
+!src/restclient
+!src/farm-connection-profile-local.yaml
+!src/factory-connection-profile-local.yaml
+
+node_modules
